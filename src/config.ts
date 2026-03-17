@@ -1,4 +1,3 @@
-import Cache from '@oclif/core/lib/cache'
 import type { ActionBase } from './action/base'
 import simple from './action/simple'
 import spinner from './action/spinner'
@@ -51,9 +50,19 @@ export class Config {
   }
 }
 
+/*
 function fetch(): any {
   const core = Cache.getInstance().get('@oclif/core')
   const major = core?.version.split('.')[0] || 'unknown'
+  if (globals[major]) return globals[major]
+  globals[major] = new Config()
+  return globals[major]
+}
+  */
+ function fetch(): Config {
+  // eslint-disable-next-line @typescript-eslint/no-var-requires
+  const { version } = require('@oclif/core/package.json')
+  const major = version?.split('.')[0] ?? 'unknown'
   if (globals[major]) return globals[major]
   globals[major] = new Config()
   return globals[major]
