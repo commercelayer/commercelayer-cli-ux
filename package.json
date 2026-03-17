@@ -1,10 +1,14 @@
 {
   "name": "@commercelayer/cli-ux",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "version": "1.0.14",
 =======
   "version": "1.0.14-beta.1",
 >>>>>>> 02d4ffa (chore(release): 1.0.14-beta.1 [skip ci])
+=======
+  "version": "2.0.0-beta.1",
+>>>>>>> 819178b (chore(release): 2.0.0-beta.1 [skip ci])
   "author": "Pierluigi Viti <pierluigi@commercelayer.io>",
   "license": "MIT",
   "description": "Commerce Layer Javascript CLI ux lib",
