@@ -1,3 +1,10 @@
+# [2.0.0-beta.2](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2026-03-17)
+
+
+### Bug Fixes
+
+* fix exports ([6414bad](https://github.com/commercelayer/commercelayer-cli-ux/commit/6414bad8a6f3a8b433d0a3cf25463782c8d1bb88))
+
 # [2.0.0-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.14-beta.1...v2.0.0-beta.1) (2026-03-17)
 
 
