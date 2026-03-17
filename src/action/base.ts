@@ -2,10 +2,8 @@
 /* eslint-disable @typescript-eslint/non-nullable-type-assertion-style */
 /* eslint-disable @typescript-eslint/unbound-method */
 import { inspect } from 'node:util'
-
 import { castArray } from '../util'
 import type { Options } from './types'
-
 
 export interface ITask {
   action: string

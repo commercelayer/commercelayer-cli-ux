@@ -2,7 +2,7 @@
 import ansiStyles from 'ansi-styles'
 import chalk from 'chalk'
 import stripAnsi from 'strip-ansi'
-import * as supportsColor from 'supports-color'
+import supportsColor from 'supports-color'
 
 import { errtermwidth } from '../screen'
 import { ActionBase, type ActionType } from './base'

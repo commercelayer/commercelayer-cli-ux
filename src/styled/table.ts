@@ -9,7 +9,6 @@ import { orderBy } from 'natural-orderby'
 import { inspect } from 'node:util'
 import sliceAnsi from 'slice-ansi'
 import sw from 'string-width'
-
 import { stdtermwidth } from '../screen'
 import { capitalize, sumBy } from '../util'
 import write from '../write'
