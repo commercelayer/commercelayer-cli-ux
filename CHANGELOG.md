@@ -1,3 +1,15 @@
+# [2.0.0-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.14-beta.1...v2.0.0-beta.1) (2026-03-17)
+
+
+### Features
+
+* migrate to oclif core v4 ([05bb0aa](https://github.com/commercelayer/commercelayer-cli-ux/commit/05bb0aa9eb60a5c6f93d53d5a1003f63b00c5ffd))
+
+
+### BREAKING CHANGES
+
+* migrate to oclif core v4
+
 ## [1.0.14-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.13...v1.0.14-beta.1) (2026-03-17)
 
 
