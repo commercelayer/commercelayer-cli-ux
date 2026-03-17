@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## [1.0.14](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.13...v1.0.14) (2026-03-17)
+=======
+## [1.0.14-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.13...v1.0.14-beta.1) (2026-03-17)
+>>>>>>> 02d4ffa (chore(release): 1.0.14-beta.1 [skip ci])
 
 
 ### Bug Fixes
