@@ -20,7 +20,8 @@
     "start": "tsx src/index.ts",
     "test": "jest --passWithNoTests",
     "test-local": "tsx test/spot.ts",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "release": "pnpm upgrade && pnpm lint && pnpm build"
   },
   "keywords": [
     "ecommerce",
@@ -40,7 +41,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/cli-progress": "^3.11.6",
-    "@types/color": "^4.2.0",
+    "@types/color": "^4.2.1",
     "@types/jest": "^30.0.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^25.5.0",
