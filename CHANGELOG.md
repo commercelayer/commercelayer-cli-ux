@@ -1,3 +1,10 @@
+# [2.0.0-beta.7](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.6...v2.0.0-beta.7) (2026-03-18)
+
+
+### Bug Fixes
+
+* fix dynamic required imports ([29b752a](https://github.com/commercelayer/commercelayer-cli-ux/commit/29b752a3e315a3bbe404257aea074cd9040aefeb))
+
 # [2.0.0-beta.6](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.5...v2.0.0-beta.6) (2026-03-18)
 
 
