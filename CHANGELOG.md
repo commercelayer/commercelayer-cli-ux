@@ -1,3 +1,10 @@
+# [2.0.0-beta.9](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.8...v2.0.0-beta.9) (2026-03-18)
+
+
+### Bug Fixes
+
+* fix package.json import ([44aacbe](https://github.com/commercelayer/commercelayer-cli-ux/commit/44aacbe26ae883a1b7e8238750a6c4c8e947c24c))
+
 # [2.0.0-beta.8](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.7...v2.0.0-beta.8) (2026-03-18)
 
 
