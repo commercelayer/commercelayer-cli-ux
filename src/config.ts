@@ -2,9 +2,6 @@ import type { ActionBase } from './action/base'
 import simple from './action/simple'
 import spinner from './action/spinner'
 
-import oclifPkg from '@oclif/core/package.json'
-const { version } = oclifPkg
-
 export type Levels = 'debug' | 'error' | 'fatal' | 'info' | 'trace' | 'warn'
 
 export interface ConfigMessage {
@@ -53,23 +50,12 @@ export class Config {
   }
 }
 
-/*
-function fetch(): any {
-  const core = Cache.getInstance().get('@oclif/core')
-  const major = core?.version.split('.')[0] || 'unknown'
-  if (globals[major]) return globals[major]
-  globals[major] = new Config()
-  return globals[major]
-}
-  */
- function fetch(): Config {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
 
-  const major = version?.split('.')[0] ?? 'unknown'
-  if (globals[major]) return globals[major]
-  globals[major] = new Config()
-  return globals[major]
+function fetch(): Config {
+  if (!globals.config) globals.config = new Config()
+  return globals.config
 }
+
 
 
 export const config: Config = fetch()
