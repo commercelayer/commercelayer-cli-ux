@@ -1,31 +1,3 @@
-# [2.0.0-beta.2](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2026-03-17)
-
-
-### Bug Fixes
-
-* fix exports ([6414bad](https://github.com/commercelayer/commercelayer-cli-ux/commit/6414bad8a6f3a8b433d0a3cf25463782c8d1bb88))
-
-# [2.0.0-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.14-beta.1...v2.0.0-beta.1) (2026-03-17)
-
-
-### Features
-
-* migrate to oclif core v4 ([05bb0aa](https://github.com/commercelayer/commercelayer-cli-ux/commit/05bb0aa9eb60a5c6f93d53d5a1003f63b00c5ffd))
-
-
-### BREAKING CHANGES
-
-* migrate to oclif core v4
-
->>>>>>> 819178b (chore(release): 2.0.0-beta.1 [skip ci])
-## [1.0.14-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.13...v1.0.14-beta.1) (2026-03-17)
->>>>>>> 02d4ffa (chore(release): 1.0.14-beta.1 [skip ci])
-
-
-### Bug Fixes
-
-* update dependencies ([5c16669](https://github.com/commercelayer/commercelayer-cli-ux/commit/5c166696f4565a51321ec9fd064564828b667546))
-
 ## [1.0.13](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.12...v1.0.13) (2026-03-13)
 
 
