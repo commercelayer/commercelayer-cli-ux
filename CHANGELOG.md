@@ -1,3 +1,10 @@
+# [2.0.0-beta.11](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.10...v2.0.0-beta.11) (2026-03-18)
+
+
+### Bug Fixes
+
+* remove lib require ([ed57909](https://github.com/commercelayer/commercelayer-cli-ux/commit/ed57909793507b5d5d28e2189ddd605a4106e31c))
+
 # [2.0.0-beta.10](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.9...v2.0.0-beta.10) (2026-03-18)
 
 
