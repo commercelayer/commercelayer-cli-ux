@@ -1,3 +1,10 @@
+# [2.0.0-beta.8](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.7...v2.0.0-beta.8) (2026-03-18)
+
+
+### Bug Fixes
+
+* remove all require commands ([739fc80](https://github.com/commercelayer/commercelayer-cli-ux/commit/739fc807888a287569ce939e6d3e4825d7da6f16))
+
 # [2.0.0-beta.7](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.6...v2.0.0-beta.7) (2026-03-18)
 
 
