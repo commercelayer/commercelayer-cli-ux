@@ -1,3 +1,10 @@
+# [2.0.0-beta.5](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.4...v2.0.0-beta.5) (2026-03-18)
+
+
+### Bug Fixes
+
+* fix markdown ([ea6f657](https://github.com/commercelayer/commercelayer-cli-ux/commit/ea6f6576a419fef8e0b6a99bc96b7f118951d4fb))
+
 # [2.0.0-beta.4](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.3...v2.0.0-beta.4) (2026-03-18)
 
 
