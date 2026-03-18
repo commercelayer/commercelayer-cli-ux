@@ -1,3 +1,10 @@
+# [2.0.0-beta.10](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.9...v2.0.0-beta.10) (2026-03-18)
+
+
+### Bug Fixes
+
+* fix oclif core version import ([33d3d30](https://github.com/commercelayer/commercelayer-cli-ux/commit/33d3d30ea3529539533f7a44e488aa93eddf89fc))
+
 # [2.0.0-beta.9](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-beta.8...v2.0.0-beta.9) (2026-03-18)
 
 
