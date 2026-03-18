@@ -6,3 +6,5 @@ declare namespace NodeJS {
 
 declare module 'hyperlinker'
 declare module 'object-treeify'
+declare module 'cardinal'
+declare module 'cardinal/themes/jq'

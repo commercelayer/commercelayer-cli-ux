@@ -1,3 +1,4 @@
+import { createRequire } from 'node:module'
 import type { ActionBase } from './action/base'
 import simple from './action/simple'
 import spinner from './action/spinner'
@@ -52,8 +53,10 @@ export class Config {
 
 
 function fetch(): Config {
-  if (!globals.config) globals.config = new Config()
-  return globals.config
+  const { version } = createRequire(__filename)('@oclif/core/package.json') as { version: string }
+  const major = version?.split('.')[0] ?? 'unknown'
+  if (!globals[major]) globals[major] = new Config()
+  return globals[major]
 }
 
 

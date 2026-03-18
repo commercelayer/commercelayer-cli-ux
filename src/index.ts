@@ -15,8 +15,8 @@ import { Errors } from '@oclif/core'
 
 import hyperlinker from 'hyperlinker'
 import supportsHyperlinks from 'supports-hyperlinks'
-const cardinal = require('cardinal')
-const cardinalThemes = require('cardinal/themes/jq')
+import cardinal from 'cardinal'
+import cardinalThemes from 'cardinal/themes/jq'
 
 // eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class ux {
