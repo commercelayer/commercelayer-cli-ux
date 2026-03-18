@@ -2,6 +2,9 @@ import type { ActionBase } from './action/base'
 import simple from './action/simple'
 import spinner from './action/spinner'
 
+import oclifPkg from '@oclif/core/package.json'
+const { version } = oclifPkg
+
 export type Levels = 'debug' | 'error' | 'fatal' | 'info' | 'trace' | 'warn'
 
 export interface ConfigMessage {
@@ -61,7 +64,7 @@ function fetch(): any {
   */
  function fetch(): Config {
   // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const { version } = require('@oclif/core/package.json')
+
   const major = version?.split('.')[0] ?? 'unknown'
   if (globals[major]) return globals[major]
   globals[major] = new Config()
