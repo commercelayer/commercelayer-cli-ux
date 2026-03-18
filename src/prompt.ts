@@ -3,6 +3,7 @@ import chalk from 'chalk'
 import { config } from './config'
 import { Errors } from '@oclif/core'
 
+const ansiEscapes = require('ansi-escapes')
 
 export interface IPromptOptions {
   default?: string
@@ -77,7 +78,6 @@ async function single(options: IPromptConfig): Promise<string> {
 }
 
 function replacePrompt(prompt: string): void {
-  const ansiEscapes = require('ansi-escapes')
   process.stderr.write(
     ansiEscapes.cursorHide +
     ansiEscapes.cursorUp(1) +

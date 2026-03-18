@@ -11,7 +11,12 @@ import * as styled from './styled'
 import uxWait from './wait'
 import write from './write'
 import { Errors } from '@oclif/core'
+
+
 const hyperlinker = require('hyperlinker')
+const supportsHyperlinks = require('supports-hyperlinks')
+const cardinal = require('cardinal')
+const cardinalThemes = require('cardinal/themes/jq')
 
 // eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class ux {
@@ -22,8 +27,7 @@ export class ux {
   }
 
   public static annotation(text: string, annotation: string): void {
-    const supports = require('supports-hyperlinks')
-    if (supports.stdout) {
+    if (supportsHyperlinks.stdout) {
       // \u001b]8;;https://google.com\u0007sometext\u001b]8;;\u0007
       this.log(`\u001B]1337;AddAnnotation=${text.length}|${annotation}\u0007${text}`)
     } else {
@@ -87,9 +91,7 @@ export class ux {
       return
     }
 
-    const cardinal = require('cardinal')
-    const theme = require('cardinal/themes/jq')
-    this.info(cardinal.highlight(json, { json: true, theme }))
+    this.info(cardinal.highlight(json, { json: true, theme: cardinalThemes }))
   }
 
   public static styledObject(obj: any, keys?: string[]): void {
@@ -115,8 +117,7 @@ export class ux {
   }
 
   public static hyperlink(text: string, uri: string, params = {}): string {
-    const supports = require('supports-hyperlinks')
-    if (supports.stdout) {
+    if (supportsHyperlinks.stdout) {
       return hyperlinker(text, uri, params)
     } else {
       return uri
