@@ -9,7 +9,7 @@ import { ActionBase, type ActionType } from './base'
 import spinners from './spinners'
 import type { Options } from './types'
 
-const ansiEscapes = require('ansi-escapes')
+import ansiEscapes from 'ansi-escapes'
 
 function color(s: string): string {
   if (!supportsColor) return s

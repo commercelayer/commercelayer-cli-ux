@@ -13,8 +13,8 @@ import write from './write'
 import { Errors } from '@oclif/core'
 
 
-const hyperlinker = require('hyperlinker')
-const supportsHyperlinks = require('supports-hyperlinks')
+import hyperlinker from 'hyperlinker'
+import supportsHyperlinks from 'supports-hyperlinks'
 const cardinal = require('cardinal')
 const cardinalThemes = require('cardinal/themes/jq')
 

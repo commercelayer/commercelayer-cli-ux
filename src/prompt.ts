@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import { config } from './config'
 import { Errors } from '@oclif/core'
 
-const ansiEscapes = require('ansi-escapes')
+import ansiEscapes from 'ansi-escapes'
 
 export interface IPromptOptions {
   default?: string
