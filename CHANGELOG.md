@@ -34,6 +34,18 @@
 
 * upgrade to oclif v4
 
+# [2.0.0-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.1.0-beta.1...v2.0.0-beta.1) (2026-03-19)
+
+
+### Bug Fixes
+
+* fix package.json and upgrade to oclif v4 ([29bda4c](https://github.com/commercelayer/commercelayer-cli-ux/commit/29bda4cd5afa674ac94ab8c64624255660841c68))
+
+
+### BREAKING CHANGES
+
+* upgrade to oclif v4
+
 # [1.1.0-beta.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.14...v1.1.0-beta.1) (2026-03-19)
 
 
