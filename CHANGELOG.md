@@ -1,3 +1,12 @@
+## [1.1.1-oclif4.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.1.0...v1.1.1-oclif4.1) (2026-03-19)
+
+
+### Bug Fixes
+
+* fix semrel config ([89ede92](https://github.com/commercelayer/commercelayer-cli-ux/commit/89ede92ca21472f9c4ebc54b90efc9290d52d8c7))
+* fix semver ([bbdcbb7](https://github.com/commercelayer/commercelayer-cli-ux/commit/bbdcbb7ee965f91120baa28a92f6a33807636b58))
+* start oclif4 prerelease from 2.1.0 ([17baca6](https://github.com/commercelayer/commercelayer-cli-ux/commit/17baca6d81c9b8a18748a624cddea5cfe72ec8eb))
+
 # [1.1.0](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.0.14...v1.1.0) (2026-03-18)
 
 
