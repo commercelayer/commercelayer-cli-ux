@@ -18,7 +18,7 @@ const actionType =
   (Boolean(process.stderr.isTTY) &&
     !process.env.CI &&
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    !['dumb', 'emacs-color'].includes(process.env.TERM!) &&
+    !['dumb', 'emacs-color'].includes(process.env.TERM || '') &&
     'spinner') ||
   'simple'
 
