@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
-/* eslint-disable @typescript-eslint/non-nullable-type-assertion-style */
-/* eslint-disable @typescript-eslint/unbound-method */
 import { inspect } from 'node:util'
 
 import { castArray } from '../util'
@@ -167,11 +164,13 @@ export class ActionBase {
 
         this.stdmocks = []
         process.stdout.write = (...args: any[]) => {
+          // biome-ignore lint/style/noNonNullAssertion: left for compatibility with previous linter
           this.stdmocks!.push(['stdout', args] as ['stdout', string[]])
           return true
         }
 
         process.stderr.write = (...args: any[]) => {
+          // biome-ignore lint/style/noNonNullAssertion: left for compatibility with previous linter
           this.stdmocks!.push(['stderr', args] as ['stderr', string[]])
           return true
         }
