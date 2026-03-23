@@ -1,6 +1,6 @@
 {
   "name": "@commercelayer/cli-ux",
-  "version": "2.0.0-oclif4.1",
+  "version": "2.0.0-oclif4.2",
   "author": "Pierluigi Viti <pierluigi@commercelayer.io>",
   "license": "MIT",
   "repository": "github:commercelayer/commercelayer-cli-ux",
