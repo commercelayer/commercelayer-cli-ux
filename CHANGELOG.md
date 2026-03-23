@@ -1,3 +1,15 @@
+# [2.0.0-oclif4.2](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.1...v2.0.0-oclif4.2) (2026-03-23)
+
+
+### Features
+
+* upgrade to oclif4 and biome ([2f57405](https://github.com/commercelayer/commercelayer-cli-ux/commit/2f574052984835483964dc48b4f57cabf8602309))
+
+
+### BREAKING CHANGES
+
+* upgrade to oclif4 and biome
+
 # [2.0.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-ux/compare/v1.1.1-oclif4.1...v2.0.0-oclif4.1) (2026-03-19)
 
 
