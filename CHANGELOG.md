@@ -1,3 +1,15 @@
+# [2.0.0-oclif4.4](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.3...v2.0.0-oclif4.4) (2026-03-25)
+
+
+### Bug Fixes
+
+* fix linter errors ([100bdc4](https://github.com/commercelayer/commercelayer-cli-ux/commit/100bdc4219b7ebff0abe7ab828014e493312287b))
+
+
+### Features
+
+* add biome ([b5eae26](https://github.com/commercelayer/commercelayer-cli-ux/commit/b5eae26194918f406ae450f369d61f9309eb7177))
+
 # [2.0.0-oclif4.3](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.2...v2.0.0-oclif4.3) (2026-03-24)
 
 
