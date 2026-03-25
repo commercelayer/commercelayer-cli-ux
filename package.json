@@ -77,5 +77,10 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "pnpm": {
+    "overrides": {
+      "@oclif/core": "3.27.0"
+    }
   }
 }
