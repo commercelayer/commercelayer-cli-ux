@@ -4,8 +4,6 @@
 import { format as utilFormat } from 'node:util'
 import { Errors } from '@oclif/core'
 import chalk from 'chalk'
-import { Errors } from '@oclif/core'
-import chalk from 'chalk'
 import type { ActionBase } from './action/base'
 import { config } from './config'
 import { flush as _flush } from './flush'

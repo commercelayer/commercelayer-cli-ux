@@ -164,13 +164,11 @@ export class ActionBase {
 
         this.stdmocks = []
         process.stdout.write = (...args: any[]) => {
-          // biome-ignore lint/style/noNonNullAssertion: left for compatibility with previous linter
           this.stdmocks!.push(['stdout', args] as ['stdout', string[]])
           return true
         }
 
         process.stderr.write = (...args: any[]) => {
-          // biome-ignore lint/style/noNonNullAssertion: left for compatibility with previous linter
           this.stdmocks!.push(['stderr', args] as ['stderr', string[]])
           return true
         }
