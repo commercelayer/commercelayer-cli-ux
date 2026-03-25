@@ -1,4 +1,4 @@
-/** biome-ignore-all lint/style/noNonNullAssertion: left for compatibility with previous linter */
+
 import { inspect } from 'node:util'
 import { Flags as F, type Interfaces } from '@oclif/core'
 import chalk from 'chalk'

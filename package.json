@@ -1,9 +1,10 @@
 {
   "name": "@commercelayer/cli-ux",
-  "version": "2.0.0-oclif4.2",
+  "description": "Commerce Layer Javascript CLI ux lib",
+  "version": "1.2.0",
   "author": "Pierluigi Viti <pierluigi@commercelayer.io>",
   "license": "MIT",
-  "description": "Commerce Layer Javascript CLI ux lib",
+  "repository": "github:commercelayer/commercelayer-cli-ux",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "module": "lib/index.mjs",
@@ -36,13 +37,15 @@
     "@biomejs/biome": "2.4.8",
     "@babel/preset-env": "^7.29.2",
     "@babel/preset-typescript": "^7.28.5",
+    "@biomejs/biome": "2.4.8",
+    "@oclif/core": "^3.27.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/cli-progress": "^3.11.6",
     "@types/color": "^3.0.7",
     "@types/jest": "^29.5.14",
     "@types/js-yaml": "^3.12.10",
-    "@types/node": "^22.19.15",
+    "@types/node": "^25.5.0",
     "@types/slice-ansi": "^4.0.0",
     "@types/supports-color": "^8.1.3",
     "@types/wordwrap": "^1.0.3",
@@ -73,7 +76,9 @@
     "supports-hyperlinks": "^2.3.0",
     "wordwrap": "^1.0.0"
   },
-  "repository": "github:commercelayer/commercelayer-cli-ux",
+  "peerDependencies": {
+    "@oclif/core": "3.27.0"
+  },
   "publishConfig": {
     "access": "public"
   }
