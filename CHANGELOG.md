@@ -1,3 +1,11 @@
+# [2.0.0-oclif4.6](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.5...v2.0.0-oclif4.6) (2026-03-25)
+
+
+### Bug Fixes
+
+* fix oclif core import ([ce2d19a](https://github.com/commercelayer/commercelayer-cli-ux/commit/ce2d19a763418b0429cfabedc5eb279b41112753))
+* fix oclif-core import ([7c458dd](https://github.com/commercelayer/commercelayer-cli-ux/commit/7c458ddaccbbc878603594d18d0d3595e66ab7d1))
+
 # [2.0.0-oclif4.5](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.4...v2.0.0-oclif4.5) (2026-03-25)
 
 
