@@ -1,3 +1,10 @@
+# [2.0.0-oclif4.7](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.6...v2.0.0-oclif4.7) (2026-03-26)
+
+
+### Features
+
+* replace jest with vitest ([72c09b7](https://github.com/commercelayer/commercelayer-cli-ux/commit/72c09b7124844598d28fe5f8b5b7f19dd041ad89))
+
 # [2.0.0-oclif4.6](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.5...v2.0.0-oclif4.6) (2026-03-25)
 
 
