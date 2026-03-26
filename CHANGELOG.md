@@ -1,3 +1,10 @@
+# [2.0.0-oclif4.9](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.8...v2.0.0-oclif4.9) (2026-03-26)
+
+
+### Bug Fixes
+
+* fix publish action ([22fb663](https://github.com/commercelayer/commercelayer-cli-ux/commit/22fb663f1f420923beec90158d3b28e3ca8df591))
+
 # [2.0.0-oclif4.8](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.7...v2.0.0-oclif4.8) (2026-03-26)
 
 
