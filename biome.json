@@ -37,7 +37,8 @@
 		"formatter": {
 			"quoteStyle": "single",
 			"semicolons": "asNeeded"
-		}
+		},
+    "globals": ["vi", "describe", "it", "expect", "beforeEach", "afterEach"]
 	},
 	"assist": {
 		"enabled": true,
