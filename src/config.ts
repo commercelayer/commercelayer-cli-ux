@@ -1,4 +1,3 @@
-import Cache from '@oclif/core/lib/cache'
 import type { ActionBase } from './action/base'
 import simple from './action/simple'
 import spinner from './action/spinner'
@@ -52,8 +51,9 @@ export class Config {
 }
 
 function fetch(): any {
-  const core = Cache.getInstance().get('@oclif/core')
-  const major = core?.version.split('.')[0] || 'unknown'
+  // const core = Cache.getInstance().get('@oclif/core')
+  // const major = core?.version.split('.')[0] || 'unknown'
+  const major = '4'
   if (globals[major]) return globals[major]
   globals[major] = new Config()
   return globals[major]
