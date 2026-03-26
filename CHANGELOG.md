@@ -1,3 +1,10 @@
+# [2.0.0-oclif4.10](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.9...v2.0.0-oclif4.10) (2026-03-26)
+
+
+### Bug Fixes
+
+* fix biome config ([7a0f8f3](https://github.com/commercelayer/commercelayer-cli-ux/commit/7a0f8f3cef20f82cdecd94af300867e079368706))
+
 # [2.0.0-oclif4.9](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.8...v2.0.0-oclif4.9) (2026-03-26)
 
 
