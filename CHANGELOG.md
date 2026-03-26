@@ -1,3 +1,10 @@
+# [2.0.0-oclif4.8](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.7...v2.0.0-oclif4.8) (2026-03-26)
+
+
+### Bug Fixes
+
+* fix error import ([b5aa7ce](https://github.com/commercelayer/commercelayer-cli-ux/commit/b5aa7ceb29d13dc45b32f2a19f4511f3862d82a9))
+
 # [2.0.0-oclif4.7](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.6...v2.0.0-oclif4.7) (2026-03-26)
 
 
