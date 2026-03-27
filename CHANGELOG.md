@@ -1,3 +1,11 @@
+# [2.0.0-oclif4.11](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.10...v2.0.0-oclif4.11) (2026-03-27)
+
+
+### Bug Fixes
+
+* fix dependencies ([8ca493a](https://github.com/commercelayer/commercelayer-cli-ux/commit/8ca493abfd125f53d07bfc6f922e372473dbc347))
+* fix review comments ([0b78e71](https://github.com/commercelayer/commercelayer-cli-ux/commit/0b78e7133158b3f5abe324f8dd4b84ff4f3b42de))
+
 # [2.0.0-oclif4.10](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.9...v2.0.0-oclif4.10) (2026-03-26)
 
 
