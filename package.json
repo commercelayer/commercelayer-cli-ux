@@ -56,7 +56,6 @@
     "vitest": "^4.1.4"
   },
   "dependencies": {
-    "@oclif/core": "4.10.0",
     "ansi-escapes": "^4.3.2",
     "ansi-styles": "^4.3.0",
     "cardinal": "^2.1.1",

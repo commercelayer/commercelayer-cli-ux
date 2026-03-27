@@ -51,12 +51,16 @@ export class Config {
 }
 
 function fetch(): any {
-  // const core = Cache.getInstance().get('@oclif/core')
-  // const major = core?.version.split('.')[0] || 'unknown'
-  const major = '4'
+  /*
+  const core = Cache.getInstance().get('@oclif/core')
+  const major = core?.version.split('.')[0] || 'unknown'
   if (globals[major]) return globals[major]
   globals[major] = new Config()
   return globals[major]
+*/
+  if (globals.config) return globals.config
+  globals.config = new Config()
+  return globals.config
 }
 
 
