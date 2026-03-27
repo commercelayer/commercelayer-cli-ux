@@ -1,4 +1,4 @@
-import { Errors } from "@oclif/core";
+import { Errors } from '@oclif/core'
 
 async function timeout(p: Promise<any>, ms: number): Promise<any> {
   async function wait(ms: number, unref = false): Promise<any> {
