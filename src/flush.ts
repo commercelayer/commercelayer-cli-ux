@@ -1,5 +1,4 @@
-import { error } from "@oclif/core/lib/errors"
-
+import { Errors } from '@oclif/core'
 
 async function timeout(p: Promise<any>, ms: number): Promise<any> {
   async function wait(ms: number, unref = false): Promise<any> {
@@ -9,7 +8,7 @@ async function timeout(p: Promise<any>, ms: number): Promise<any> {
     })
   }
 
-  return Promise.race([p, wait(ms, true).then(() => error('timed out'))])
+  return Promise.race([p, wait(ms, true).then(() => Errors.error('timed out'))])
 }
 
 async function _flush(): Promise<any> {

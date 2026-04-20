@@ -14,8 +14,7 @@ import write from './write'
 
 const hyperlinker = require('hyperlinker')
 
-
-// biome-ignore lint/complexity/noStaticOnlyClass: left for compatibility with old linter
+// biome-ignore lint/complexity/noStaticOnlyClass: left for compatibility with previous linter
 export class ux {
   public static config = config
 

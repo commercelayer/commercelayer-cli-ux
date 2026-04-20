@@ -1,6 +1,3 @@
-/* eslint-disable @typescript-eslint/no-non-null-assertion */
-/* eslint-disable @typescript-eslint/non-nullable-type-assertion-style */
-/* eslint-disable @typescript-eslint/unbound-method */
 import { inspect } from 'node:util'
 
 import { castArray } from '../util'
