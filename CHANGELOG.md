@@ -1,3 +1,38 @@
+# [2.0.0-oclif4.12](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.11...v2.0.0-oclif4.12) (2026-04-20)
+
+
+### Bug Fixes
+
+* fix biome config ([cace0fb](https://github.com/commercelayer/commercelayer-cli-ux/commit/cace0fb7bcae175c7707f53f00c2e6858e7dc351))
+* fix biome dependency ([946d85a](https://github.com/commercelayer/commercelayer-cli-ux/commit/946d85a5c9afe5861198c043575ea835b6d7d578))
+* fix dependencies ([0e69da2](https://github.com/commercelayer/commercelayer-cli-ux/commit/0e69da27001361f3c9e44481930a4ba3ab2a587c))
+* fix dependencies ([57f1891](https://github.com/commercelayer/commercelayer-cli-ux/commit/57f18917e5db167f921d3f1a2eb87a6cccbd7ece))
+* fix error import ([27f8d31](https://github.com/commercelayer/commercelayer-cli-ux/commit/27f8d311833011049cb05249abfd9650acd51937))
+* fix indentation of $schema in biome.json ([a3f10ca](https://github.com/commercelayer/commercelayer-cli-ux/commit/a3f10ca0df2db0b0ae99791b788fdacd4e0a9980))
+* fix linter errors ([0dcb7ee](https://github.com/commercelayer/commercelayer-cli-ux/commit/0dcb7ee8f75a7a13f18ba8bc62a82cf517c32ea3))
+* fix oclif core import ([e0b1e05](https://github.com/commercelayer/commercelayer-cli-ux/commit/e0b1e05d2c2d9ed6e6c02858535c25deea7266dc))
+* fix oclif-core import ([e54c669](https://github.com/commercelayer/commercelayer-cli-ux/commit/e54c669ee9879fea6b12b3c40fa9843e35125f0b))
+* fix publish action ([0f6a221](https://github.com/commercelayer/commercelayer-cli-ux/commit/0f6a2213b5f320c0002797253bfc36595188d349))
+* fix review comments ([faff199](https://github.com/commercelayer/commercelayer-cli-ux/commit/faff199b438a110fc598b3c9390511dcd410bf40))
+* fix semrel config ([a934c3d](https://github.com/commercelayer/commercelayer-cli-ux/commit/a934c3deacb8e48a791ea5efafde885769f3c9ed))
+* fix semver ([658cb8a](https://github.com/commercelayer/commercelayer-cli-ux/commit/658cb8a1db5bbfbb654914cdc45dd05d01018dc2))
+* start oclif4 prerelease from 2.1.0 ([54aa7cd](https://github.com/commercelayer/commercelayer-cli-ux/commit/54aa7cd390b71fe5d0ea9116a0e9a6e8878e61c3))
+* update dependencies ([24eff63](https://github.com/commercelayer/commercelayer-cli-ux/commit/24eff6310e98b37f741b2a21f26a43d737cf8e56))
+* update dependencies ([d330188](https://github.com/commercelayer/commercelayer-cli-ux/commit/d330188163abf3c896ecc2650e833ea1ace23c95))
+
+
+### Features
+
+* replace jest with vitest ([1cf0f62](https://github.com/commercelayer/commercelayer-cli-ux/commit/1cf0f62e18fdb44ab0ce84c50a3e701c38a719f2))
+* upgrade oclif core to v4 ([756ea8a](https://github.com/commercelayer/commercelayer-cli-ux/commit/756ea8ab42604934edda6bb18ca01ed2b4e9651d))
+* upgrade to oclif4 and biome ([ce00730](https://github.com/commercelayer/commercelayer-cli-ux/commit/ce00730193ae93e171b302ec5096146d8265d874))
+
+
+### BREAKING CHANGES
+
+* upgrade to oclif4 and biome
+* upgrade oclif core to v4
+
 # [2.0.0-oclif4.11](https://github.com/commercelayer/commercelayer-cli-ux/compare/v2.0.0-oclif4.10...v2.0.0-oclif4.11) (2026-03-27)
 
 
