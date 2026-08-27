@@ -2,6 +2,7 @@
   "name": "@commercelayer/cli-ux",
   "description": "Commerce Layer Javascript CLI ux lib",
   "version": "1.2.4",
+  "packageManager": "pnpm@11.20.0",
   "author": "Pierluigi Viti <pierluigi@commercelayer.io>",
   "license": "MIT",
   "repository": "github:commercelayer/commercelayer-cli-ux",
