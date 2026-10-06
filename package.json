@@ -36,7 +36,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.29.7",
     "@babel/preset-typescript": "^7.29.7",
-    "@biomejs/biome": "^2.5.10",
+    "@biomejs/biome": "^2.5.14",
     "@oclif/core": "^3.27.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
@@ -52,7 +52,7 @@
     "oclif": "^4.24.0",
     "semantic-release": "^25.0.9",
     "tsup": "^8.5.1",
-    "tsx": "^4.23.12",
+    "tsx": "^4.23.15",
     "typescript": "^5.9.3"
   },
   "dependencies": {
@@ -63,7 +63,7 @@
     "cli-progress": "^3.12.0",
     "color": "^4.2.3",
     "hyperlinker": "^1.0.0",
-    "js-yaml": "^3.15.1",
+    "js-yaml": "^3.15.2",
     "natural-orderby": "^2.0.3",
     "object-treeify": "^1.1.33",
     "password-prompt": "^1.1.3",
